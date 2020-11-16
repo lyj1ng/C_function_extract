@@ -1,7 +1,7 @@
 import os
 import re
 
-def get_funcntions(filename):
+def get_functions(filename):
     rgl_exp1 = r'(.*)(\s)*((void)|(char)|(short)|(int)|(float)|(long)|(double)|(ulong))(\s)(.*)'
     #use to match function name
     pat1 = re.compile(rgl_exp1,re.X)
@@ -48,7 +48,7 @@ def get_funcntions(filename):
     return all_func
     
 #test code:
-for i in get_funcntions('sal_module_wrapper.c'):
+for i in get_functions('sal_module_wrapper.c'):
     print(i)
     print('='*90)
     
