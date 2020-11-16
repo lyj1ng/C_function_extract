@@ -1,5 +1,5 @@
 # C_function_extract
-a python script to extract functions from a C SOURECE FILE
+a python script to extract functions from a C SOURCE FILE
 
 
 # demo:
